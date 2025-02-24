@@ -241,18 +241,18 @@ function scrollPlaylist(direction) {
 }
 
 // Add event listeners to scroll buttons
-document.getElementById('scrollUp').addEventListener('click', () => scrollPlaylist('up'));
-document.getElementById('scrollDown').addEventListener('click', () => scrollPlaylist('down'));
+document.getElementById('scroll-up').addEventListener('click', function() {
+    document.querySelector('.playlist').scrollBy(0, -50); // Scrolls up
+});
 
-// Ensure new songs are added inside the playlist section
-function addSongToPlaylist(song) {
-    let playlist = document.querySelector('.playlist');
-    let songItem = document.createElement('div');
-    songItem.classList.add('song-item');
-    songItem.innerHTML = `<p>${song.name} - ${song.artist}</p>`;
-    playlist.appendChild(songItem);
+document.getElementById('scroll-down').addEventListener('click', function() {
+    document.querySelector('.playlist').scrollBy(0, 50); // Scrolls down
+});
 
-    // Keep the song inside the scrollable playlist
-    playlist.scrollTop = playlist.scrollHeight;
+// Ensure new songs are added inside the playlist
+function addSongToPlaylist(songName, artist) {
+    let songList = document.getElementById('song-list');
+    let listItem = document.createElement('li');
+    listItem.innerHTML = `<span>${songName} - ${artist}</span>`;
+    songList.appendChild(listItem);
 }
-
