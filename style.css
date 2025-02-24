@@ -303,12 +303,12 @@ body {
 
 /* Ensure Playlist Section is Scrollable */
 .playlist {
-    height: 500px;
-    width: 40%;
+    max-height: 300px; /* Adjust height as needed */
+    overflow-y: auto;
     background-color: rgba(0, 0, 0, 0.063);
     border-radius: 4px;
     padding: 10px;
-    margin: 10px;
+    position: relative;
 }
 
 .playlist:hover {
