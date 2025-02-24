@@ -310,6 +310,10 @@ body {
     position: relative;
 }
 
+.playlist:hover {
+      background-color: transparent;
+      box-shadow: 0 0 20px #2221218f;
+  }
 /* Scroll Buttons */
 .scroll-buttons {
     display: flex;
