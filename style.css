@@ -322,10 +322,14 @@ body {
     position: absolute;
     right: -30px;
     top: 0;
+    background-color: rgba(0, 0, 0, 0.063);
+    border-radius: 4px;
 }
 
 .scroll-buttons button {
     margin: 5px;
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.063);
+    border-radius: 4px;
     cursor: pointer;
 }
