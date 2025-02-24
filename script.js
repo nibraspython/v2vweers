@@ -61,7 +61,7 @@ let track_list = [
     name: "Ishq",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://media-hosting.imagekit.io//b9011f190b5b4792/screenshot_1740421229697.png?Expires=1835029231&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ypbmTNtMTV-tdx~5Yhuw83Pt0~yDmnr6AvnXNqHJM6et~NRePMCx9oR2l7vl1g6xmjP--jSjxpdFfg10xecwx8CdCRt4D9dvE18Fmq8GNcb4C1MeC7PhC59yqHTeCUcvuQEF4YLfXClaFW1q7NlASrubAfDrSK0YXsJ78C-RSeCRejygRZa5MvJBPlsp~76pa6zr0eKh2q8813pnmjVfmBxPCBU8k~kbjsEKrgacp23MfisKb7zAXM-S20phzGWIxbGl21vbjlBRTw8P7owCVGJmGzrGzXfCSVmScOfwfkcK3kIz-Uifbn7QARk~bA2FDpo2I~bYbphX1~bISEPhSA__",
-    path: "bb710ac9db02e2e056b4370041205e8a.mp3",
+    path: "nasheed.mp3",
   },
   {
     name: "Jhol",
@@ -70,7 +70,7 @@ let track_list = [
     path: "&Signature=AYcqy3MD6Aw2Fjl6axZMBxXfu9EgxLXajT-xpwhZ9vPkGU~D1zT6uPrTWIK~j0d1brNIDHN-zZgZZWrWktdsqMsMlbl1rxtmEzfUW5I5MF4qjgu-sL360JgsMgek~pZ26OFzChKGab8vtOjkqoqk609y9Lx0PhIqvl3VyByqypwvCZ1tDqFaEmbDzETvPlufPYjtn3Co9Vz4Uqq4uB06~R1VPkWnPeObYxEXbLLP9bhjpfYTaOADetqI8hWu57BlxKxjWS-UPlSyTHLRzzPp5O3Nax0eyczXv9YEvfMolFg4i79Ah4r7hR5Wc3yC4SyX~i3-jD777neOm-rUagVXfg__",
   },
   {
-    name: "V477GB",
+    name: "kjhgfrdzxc",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://ik.imagekit.io/eypz/1727596419416_7OfDs2puX.png",
     path: "https://i.imgur.com/0BYmNbz.mp4",
@@ -191,12 +191,12 @@ function song8OnClick() {
 }
 
 function song9OnClick() {
-  loadTrack(7);
+  loadTrack(8);
   playTrack();
 }
 
 function song10OnClick() {
-  loadTrack(7);
+  loadTrack(9);
   playTrack();
 }
 
