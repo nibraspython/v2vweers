@@ -301,28 +301,26 @@ body {
     background: #555;
 }
 
-/* Fixing Playlist Scroll & New Song Overflow Issue */
-
-/* Ensure Playlist Section has Scroll */
-.playlist-container {
+/* Ensure Playlist Section is Scrollable */
+.playlist {
     max-height: 300px; /* Adjust height as needed */
-    overflow-y: auto;
+    overflow-y: auto; /* Enables scrolling */
+    border: 2px solid black;
+    padding: 10px;
     position: relative;
 }
 
 /* Scroll Buttons */
-.scroll-btn {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    padding: 5px;
-    cursor: pointer;
-    border: none;
-    font-size: 16px;
+.scroll-buttons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -30px;
+    top: 0;
 }
 
-.scroll-btn:hover {
-    background-color: #333;
+.scroll-buttons button {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
 }
