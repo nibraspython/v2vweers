@@ -1,81 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #9266D4;
-    color: black;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    transition: background-color 1s ease-in-out;
-}
-
-.container {
+/* Style for the playlist wrapper */
+.playlist-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    width: 300px; /* Adjust width as needed */
 }
 
-.player-box {
-    display: flex;
-    background: #b491e3;
-    border-radius: 10px;
-    padding: 20px;
-    width: 80%;
-    max-width: 900px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.music-player {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-.music-player img {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.controls button {
-    background: #000;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-.playlist {
-    flex: 1;
-    padding: 20px;
-    text-align: left;
-    border: 2px solid black;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-#song-list {
+/* Style for the playlist container */
+.playlist-container {
+    max-height: 200px; /* Adjust height as needed */
     overflow-y: auto;
-    max-height: 300px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.song-item {
-    display: flex;
-    align-items: center;
-    padding: 10px;
+/* Style for the scroll buttons */
+.scroll-button {
+    background-color: #f0f0f0;
+    border: none;
     cursor: pointer;
+    padding: 5px;
+    width: 100%;
 }
 
-.song-item img {
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    margin-right: 10px;
+.scroll-button:active {
+    background-color: #ccc;
 }
