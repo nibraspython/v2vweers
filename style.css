@@ -285,21 +285,6 @@ body {
     font-size: 0.6rem;
   }
 }
-/* Add custom scrollbar styles */
-.playlist::-webkit-scrollbar {
-    width: 8px;
-}
-.playlist::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-.playlist::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-.playlist::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
 
 /* Ensure Playlist Section is Scrollable */
 .playlist {
