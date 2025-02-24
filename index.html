@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player | Oggy 🎧</title>
+    <!-- Load FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- Load the custom CSS style file -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="player box">
+      <div class="details">
+        <div class="now-playing">PLAYING x OF y</div>
+        <div class="track-art"></div>
+        <div class="track-name">Track Name</div>
+        <div class="track-artist">Track Artist</div>
+      </div>
+
+      <div class="buttons">
+        <div class="prev-track" onclick="prevTrack()">
+          <i class="fa fa-step-backward fa-2x"></i>
+        </div>
+        <div class="playpause-track" onclick="playpauseTrack()">
+          <i class="fa fa-play-circle fa-5x"></i>
+        </div>
+        <div class="next-track" onclick="nextTrack()">
+          <i class="fa fa-step-forward fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="slider_container">
+        <div class="current-time">00:00</div>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="0"
+          class="seek_slider"
+          onchange="seekTo()"
+        />
+        <div class="total-duration">00:00</div>
+      </div>
+
+      <div class="slider_container">
+        <i class="fa fa-volume-down"></i>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="99"
+          class="volume_slider"
+          onchange="setVolume()"
+        />
+        <i class="fa fa-volume-up"></i>
+      </div>
+    </div>
+
+    <!-- second box -->
+    <div class="main box">
+      <div class="current-playing">
+        <p class="heading">Your Playlist</p>
+      </div>
+
+      <div class="loader" onclick="song1OnClick()">
+        <div class="song">
+          <p class="name">High Heels</p>
+          <p class="artist">Jaz Dhami Feat. Yo Yo Honey Singh</p>
+        </div>
+
+        <div class="album-cover" id="album-cover1"></div>
+
+        <div class="play"></div>
+      </div>
+
+      <div class="loader" onclick="song2OnClick()">
+        <div class="song">
+          <p class="name">Hass Hass</p>
+          <p class="artist">Diljit X Sia</p>
+        </div>
+
+        <div class="album-cover" id="album-cover2"></div>
+
+        <div class="play"></div>
+      </div>
+
+      <div class="loader" onclick="song3OnClick()">
+        <div class="song">
+          <p class="name">Aa</p>
+          <p class="artist">Arif Lohar, Deep Jandu</p>
+        </div>
+
+        <div class="album-cover" id="album-cover3"></div>
+
+        <div class="play"></div>
+      </div>
+
+      <div class="loader" onclick="song4OnClick()">
+        <div class="song">
+          <p class="name">Oggy</p>
+          <p class="artist">SHADOW LADY SCXR SOUL</p>
+        </div>
+
+        <div class="album-cover" id="album-cover4"></div>
+
+        <div class="play"></div>
+      </div>
+
+      <div class="loader" onclick="song5OnClick()">
+        <div class="song">
+          <p class="name">Safwan</p>
+          <p class="artist">SHADOW LADY SCXR SOUL</p>
+        </div>
+
+        <div class="album-cover" id="album-cover5"></div>
+
+        <div class="play"></div>
+      </div>
+
+      <div class="loader" onclick="song6OnClick()">
+        <div class="song">
+          <p class="name">Nibras</p>
+          <p class="artist">SHADOW LADY SCXR SOUL</p>
+        </div>
+
+        <div class="album-cover" id="album-cover6"></div>
+
+        <div class="play"></div>
+      </div>
+      
+      <div class="loader" onclick="song7OnClick()">
+        <div class="song">
+          <p class="name">Nibras</p>
+          <p class="artist">SHADOW LADY SCXR SOUL</p>
+        </div>
+
+        <div class="album-cover" id="album-cover6"></div>
+
+        <div class="play"></div>
+      </div>
+
+      <div class="loader" onclick="song8OnClick()">
+        <div class="song">
+          <p class="name">Nibras</p>
+          <p class="artist">SHADOW LADY SCXR SOUL</p>
+        </div>
+
+        <div class="album-cover" id="album-cover6"></div>
+
+        <div class="play"></div>
+      </div>        
+    </div>
+    <!-- Load the main script for the player -->
+    <script src="script.js"></script>
+  </body>
+</html>
