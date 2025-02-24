@@ -303,7 +303,7 @@ body {
 
 /* Ensure Playlist Section is Scrollable */
 .playlist {
-    max-height: 300px; /* Adjust height as needed */
+    max-height: 500px; /* Adjust height as needed */
     overflow-y: auto;
     background-color: rgba(0, 0, 0, 0.063);
     border-radius: 4px;
