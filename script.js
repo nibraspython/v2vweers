@@ -30,7 +30,7 @@ let track_list = [
   {
     name: "Aziyat",
     artist: "Diljit X Sia",
-    image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
+    image: "https://media-hosting.imagekit.io//7c969cb02aff43c8/screenshot_1740418839921.png?Expires=1835026841&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AYcqy3MD6Aw2Fjl6axZMBxXfu9EgxLXajT-xpwhZ9vPkGU~D1zT6uPrTWIK~j0d1brNIDHN-zZgZZWrWktdsqMsMlbl1rxtmEzfUW5I5MF4qjgu-sL360JgsMgek~pZ26OFzChKGab8vtOjkqoqk609y9Lx0PhIqvl3VyByqypwvCZ1tDqFaEmbDzETvPlufPYjtn3Co9Vz4Uqq4uB06~R1VPkWnPeObYxEXbLLP9bhjpfYTaOADetqI8hWu57BlxKxjWS-UPlSyTHLRzzPp5O3Nax0eyczXv9YEvfMolFg4i79Ah4r7hR5Wc3yC4SyX~i3-jD777neOm-rUagVXfg__",
     path: "Aziyat - Pratyush Dhiman.mp3",
   },
   {
@@ -67,7 +67,7 @@ let track_list = [
     name: "ADDEED",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
-    path: "https://i.imgur.com/BYHxsQb.mp4",
+    path: "https://media-hosting.imagekit.io//7c969cb02aff43c8/screenshot_1740418839921.png?Expires=1835026841&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AYcqy3MD6Aw2Fjl6axZMBxXfu9EgxLXajT-xpwhZ9vPkGU~D1zT6uPrTWIK~j0d1brNIDHN-zZgZZWrWktdsqMsMlbl1rxtmEzfUW5I5MF4qjgu-sL360JgsMgek~pZ26OFzChKGab8vtOjkqoqk609y9Lx0PhIqvl3VyByqypwvCZ1tDqFaEmbDzETvPlufPYjtn3Co9Vz4Uqq4uB06~R1VPkWnPeObYxEXbLLP9bhjpfYTaOADetqI8hWu57BlxKxjWS-UPlSyTHLRzzPp5O3Nax0eyczXv9YEvfMolFg4i79Ah4r7hR5Wc3yC4SyX~i3-jD777neOm-rUagVXfg__",
   },
   {
     name: "V477GB",
