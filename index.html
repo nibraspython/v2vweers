@@ -61,11 +61,10 @@
     </div>
 
     <!-- second box -->
-    <div class="main box">
-      <div class="current-playing">
-        <p class="heading">Your Playlist</p>
-      </div>
-
+    <div class="playlist-container">
+    <div class="playlist">
+        <h2>Your Playlist</h2>
+        <ul id="song-list">
       <div class="loader" onclick="song1OnClick()">
         <div class="song">
           <p class="name">High Heels</p>
@@ -154,6 +153,15 @@
         <div class="play"></div>
       </div>        
     </div>
+      </ul>
+    </div>
+
+    <!-- Scroll Buttons -->
+    <div class="scroll-buttons">
+        <button id="scroll-up">▲</button>
+        <button id="scroll-down">▼</button>
+    </div>
+</div>
     <!-- Load the main script for the player -->
     <script src="script.js"></script>
   </body>
