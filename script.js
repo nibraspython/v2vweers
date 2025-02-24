@@ -64,10 +64,22 @@ let track_list = [
     path: "bb710ac9db02e2e056b4370041205e8a.mp3",
   },
   {
-    name: "Sulaim",
+    name: "ADDEED",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
-    path: "https://cdn.ironman.my.id/q/gZpzw.jpg",
+    path: "https://i.imgur.com/BYHxsQb.mp4",
+  },
+  {
+    name: "V477GB",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
+    path: "https://i.imgur.com/0BYmNbz.mp4",
+  },
+  {
+    name: "KUNJIOOO7876TR",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
+    path: "https://i.imgur.com/BYHxsQb.mp4",
   },
 ];
 
@@ -174,6 +186,16 @@ function song7OnClick() {
 }
 
 function song8OnClick() {
+  loadTrack(7);
+  playTrack();
+}
+
+function song9OnClick() {
+  loadTrack(7);
+  playTrack();
+}
+
+function song10OnClick() {
   loadTrack(7);
   playTrack();
 }
