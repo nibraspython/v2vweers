@@ -287,12 +287,32 @@ body {
 }
 
 /* Ensure playlist is scrollable */
+/* Updated style.css */
+
+/* Fix playlist section to have a scroll bar */
 .playlist {
-    max-height: 250px; /* Adjust as needed */
-    overflow-y: auto;
-    border: 2px solid #ccc;
-    padding: 10px;
+    max-height: 300px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 2px solid black; /* Keep existing design */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* Add custom scrollbar styles */
+.playlist::-webkit-scrollbar {
+    width: 8px;
+}
+.playlist::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.playlist::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.playlist::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 
 /* Style scroll buttons */
 .scroll-button {
