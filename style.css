@@ -301,20 +301,19 @@ body {
       box-shadow: 0 0 20px #2221218f;
   }
 /* Scroll Buttons */
-.scroll-buttons {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: -30px;
-    top: 0;
+/* Add custom scrollbar styles */
+.playlist::-webkit-scrollbar {
+    width: 8px;
+}
+.playlist::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.063);
     border-radius: 4px;
 }
-
-.scroll-buttons button {
-    margin: 5px;
-    padding: 5px;
+.playlist::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.063);
     border-radius: 4px;
-    cursor: pointer;
+}
+.playlist::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+    box-shadow: 0 0 20px #2221218f;
 }
