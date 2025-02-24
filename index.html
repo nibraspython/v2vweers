@@ -8,10 +8,14 @@
 <body>
     <div class="player">
         <audio id="audioPlayer" controls></audio>
-        <div class="playlist-container">
-            <ul id="playlist">
-                <!-- Songs will be dynamically added here -->
-            </ul>
+        <div class="playlist-wrapper">
+            <button id="scrollUp" class="scroll-button">▲</button>
+            <div class="playlist-container">
+                <ul id="playlist">
+                    <!-- Songs will be dynamically added here -->
+                </ul>
+            </div>
+            <button id="scrollDown" class="scroll-button">▼</button>
         </div>
     </div>
     <script src="script.js"></script>
