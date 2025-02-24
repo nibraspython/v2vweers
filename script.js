@@ -1,79 +1,44 @@
-let songs = [];
+// Array of song objects
+const songs = [
+    { title: "Aziyat - Pratyush Dhiman", src: "Aziyat - Pratyush Dhiman.mp3" },
+    { title: "Beevi Rish NK, Zail", src: "Beevi Rish NK, Zail.mp3" },
+    { title: "kahani_suno", src: "kahani_suno.mp3" },
+    { title: "nasheed", src: "nasheed.mp3" }
+    // Add more songs as needed
+];
 
-function addSong() {
-    const name = document.getElementById("song-name").value;
-    const file = document.getElementById("song-file").files[0];
-    const message = document.getElementById("message");
-
-    if (!name || !file) {
-        message.innerHTML = "Please enter a song name and upload a file.";
-        return;
-    }
-
-    const songURL = URL.createObjectURL(file);
-    songs.push({ name, url: songURL });
-
-    document.getElementById("song-name").value = "";
-    document.getElementById("song-file").value = "";
-    message.innerHTML = "Song added successfully!";
-
-    displayPlaylist();
-}
-
-function displayPlaylist() {
-    const songList = document.getElementById("song-list");
-    songList.innerHTML = "";
-
+// Function to initialize the playlist
+function initPlaylist() {
+    const playlist = document.getElementById('playlist');
     songs.forEach((song, index) => {
-        const songItem = document.createElement("div");
-        songItem.classList.add("song-item");
-        songItem.innerHTML = `
-            <p onclick="playSong(${index})">${song.name}</p>
-        `;
-        songList.appendChild(songItem);
+        const li = document.createElement('li');
+        li.textContent = song.title;
+        li.addEventListener('click', () => playSong(index));
+        playlist.appendChild(li);
     });
-
-    document.getElementById("audio-player").onended = function () {
-        nextSong();
-    };
 }
 
-let currentSongIndex = 0;
-
+// Function to play a selected song
 function playSong(index) {
-    currentSongIndex = index;
-    const player = document.getElementById("audio-player");
-    player.src = songs[currentSongIndex].url;
-    player.play();
-    document.getElementById("song-title").innerText = songs[currentSongIndex].name;
+    const audioPlayer = document.getElementById('audioPlayer');
+    audioPlayer.src = songs[index].src;
+    audioPlayer.play();
 }
 
-function nextSong() {
-    if (currentSongIndex < songs.length - 1) {
-        playSong(currentSongIndex + 1);
+// Scroll functionality
+function scrollPlaylist(direction) {
+    const container = document.querySelector('.playlist-container');
+    const scrollAmount = 50; // Adjust scroll amount as needed
+    if (direction === 'up') {
+        container.scrollTop -= scrollAmount;
+    } else if (direction === 'down') {
+        container.scrollTop += scrollAmount;
     }
 }
 
-function prevSong() {
-    if (currentSongIndex > 0) {
-        playSong(currentSongIndex - 1);
-    }
-}
+// Event listeners for scroll buttons
+document.getElementById('scrollUp').addEventListener('click', () => scrollPlaylist('up'));
+document.getElementById('scrollDown').addEventListener('click', () => scrollPlaylist('down'));
 
-function playPause() {
-    const player = document.getElementById("audio-player");
-    if (player.paused) {
-        player.play();
-    } else {
-        player.pause();
-    }
-}
-
-// Background Color Change Every 5 Seconds
-function changeBackgroundColor() {
-    const colors = ["#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#F3FF33", "#33FFF3", "#9266D4", "#b491e3"];
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    document.body.style.backgroundColor = randomColor;
-}
-
-setInterval(changeBackgroundColor, 5000);
+// Initialize the playlist on page load
+window.onload = initPlaylist;
