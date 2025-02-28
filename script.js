@@ -67,7 +67,7 @@ let track_list = [
     name: "Jhol",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
-    path: "https://api.telegram.org/file/bot8045551979:AAEX1AuHUSb3alFXXmXPlOJW-r6mXtMBSrI/music/file_25.mp3",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
   },
   {
     name: "Changes",
