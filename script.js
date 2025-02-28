@@ -61,13 +61,13 @@ let track_list = [
     name: "Ishq",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://files.catbox.moe/yr7d14.png",
-    path: "https://i.imgur.com/kIJBlxj.mp4",
+    path: "https://files.catbox.moe/kisqkf.mp4",
   },
   {
-    name: "Jhol",
+    name: "Jhol 78",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://i.imgur.com/8iGoSTU.jpeg",
-    path: "https://files.catbox.moe/ydn7fg.mp4",
+    image: "https://api.telegram.org/file/bot8045551979:AAEX1AuHUSb3alFXXmXPlOJW-r6mXtMBSrI/photos/file_1.jpg",
+    path: "https://api.telegram.org/file/bot8045551979:AAEX1AuHUSb3alFXXmXPlOJW-r6mXtMBSrI/music/file_2.mp3",
   },
   {
     name: "Changes",
