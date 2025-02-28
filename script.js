@@ -60,26 +60,26 @@ let track_list = [
   {
     name: "Ishq",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://files.catbox.moe/yr7d14.png",
-    path: "https://files.catbox.moe/kisqkf.mp4",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_23.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_22.mp3",
   },
   {
-    name: "Jhol 78",
+    name: "Jhol",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://api.telegram.org/file/bot8045551979:AAEX1AuHUSb3alFXXmXPlOJW-r6mXtMBSrI/photos/file_1.jpg",
-    path: "https://api.telegram.org/file/bot8045551979:AAEX1AuHUSb3alFXXmXPlOJW-r6mXtMBSrI/music/file_2.mp3",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
+    path: "https://api.telegram.org/file/bot8045551979:AAEX1AuHUSb3alFXXmXPlOJW-r6mXtMBSrI/music/file_25.mp3",
   },
   {
     name: "Changes",
     artist: "XXX TENTACTION",
-    image: "https://files.catbox.moe/i598g0.png",
-    path: "https://files.catbox.moe/ok365y.mp4",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
   },
   {
-    name: "KUNJIOOO7876TR",
+    name: "Dilshaad",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://ik.imagekit.io/eypz/1727596419416_7OfDs2puX.png",
-    path: "https://files.catbox.moe/uamhh6.mp4",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_28.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_29.mp3",
   },
 ];
 
