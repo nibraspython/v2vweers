@@ -22,10 +22,10 @@ let curr_track = document.createElement("audio");
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Sanam Re",
+    name: "Sanam 6 Re",
     artist: "Mithoon & Arijit Singh",
     image: "https://files.catbox.moe/z6o9lq.png",
-    path: "https://files.catbox.moe/vg8oxv.mp4",
+    path: "https://files.catbox.moe/vg8oxv.mp3",
   },
   {
     name: "Aziyat",
@@ -34,10 +34,10 @@ let track_list = [
     path: "https://files.catbox.moe/kdq9hs.mp4",
   },
   {
-    name: "Nasheed",
+    name: "Nasheed90",
     artist: "Arif Lohar, Deep Jandu",
     image: "https://files.catbox.moe/05ooqb.png",
-    path: "https://files.catbox.moe/qvkb2a.mp4",
+    path: "https://files.catbox.moe/qvkb2a.mp3",
   },
   {
     name: "Kahani_Suno",
