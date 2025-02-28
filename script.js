@@ -22,28 +22,28 @@ let curr_track = document.createElement("audio");
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Sanam 6 Re",
+    name: "SanamRe",
     artist: "Mithoon & Arijit Singh",
-    image: "https://files.catbox.moe/z6o9lq.png",
-    path: "https://files.catbox.moe/vg8oxv.mp3",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_30.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_31.mp3",
   },
   {
     name: "Aziyat",
     artist: "Diljit X Sia",
-    image: "https://files.catbox.moe/0szjj2.png",
-    path: "https://files.catbox.moe/kdq9hs.mp4",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_33.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_32.mp3",
   },
   {
-    name: "Nasheed90",
+    name: "Nasheed",
     artist: "Arif Lohar, Deep Jandu",
     image: "https://files.catbox.moe/05ooqb.png",
-    path: "https://files.catbox.moe/qvkb2a.mp3",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_34.mp3",
   },
   {
     name: "Kahani_Suno",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://media-hosting.imagekit.io//1f562de013e24f74/screenshot_1740420375390.png?Expires=1835028376&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jaT7f4TmaRh3V49vOtz62hd~u4U6z7~TAupIhHmcapm9su56qDYJR3-LNn-DxkCpE0rcayWXzExw7BNZNJds7C-kLZxx70LnF65fPIxcAPsUI79MFyEpxd8SQm2L83T-UQkANCNd-xX4dnVQ3h0RRl04ZPak9fCjrON~ewLptGnKI5rRm1Xo3UADA76-~6HyYZt~inO7g86ZNCO6Fn4JlYHYnzLGC-VTJLP-iBQtQ1BXDaB7-zGOONu-22PGb-K2xfVBYzM3tTP-quZgAvJiLO6mx4LQgT7EnUqciSlUwylNLdR9TQBvbApvzwfAUsynCqP3w56pdet1xytedKm21A__",
-    path: "kahani_suno.mp3",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_35.mp3",
   },
   {
     name: "Teri Meri",
