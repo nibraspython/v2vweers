@@ -24,20 +24,20 @@ let track_list = [
   {
     name: "Sanam Re",
     artist: "Mithoon & Arijit Singh",
-    image: "https://media-hosting.imagekit.io//19e83e19a4bf48ba/screenshot_1740419554412.png?Expires=1835027555&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AcnEA6o1ex1W9npRumjhB4uvzDf43AVnNuYw21I6W-lcdOX9b7A7MWf4EHYwLHUunQ8EctgQhpRrs83o-DxGRkgSQE4Cae-3IGjpfqqF6QlTaeIA6Fu-CWcS4PyWvSoao8odeqWHndxsG4HVWi11lPjgdIwmoZOC4uxweyDnrNO9O~xv~l18wUs74hKWa5kfnnewY~SsPEQu73yvLpYifahNpLWjwd8KoysRFETR6e7ffwGqMGvhTqCTxIMXiDbnLlbh-OoMlnGh6viu-VvvvbjWmWiB5oKZBuTkJpBIZVKbLPRtjqenbxK1mPqCR9vMTxCBEf26-0DX~gx435HGVw__",
-    path: "1c0a47960b0581817dfac596a058604f.mp3",
+    image: "https://files.catbox.moe/z6o9lq.png",
+    path: "https://files.catbox.moe/vg8oxv.mp4",
   },
   {
     name: "Aziyat",
     artist: "Diljit X Sia",
-    image: "https://media-hosting.imagekit.io//f4938527f01146e4/screenshot_1740420125948.png?Expires=1835028127&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=H0rwJV4ARojxJXCLzefSDZBDu0NUqHlKVxohzTNgMoPXojenPiEtpdsaY5EMvBiF1ANNKAWJRL6PCMxg5GqVNhtOI0X-iU8EX2b3Qst3GBYOBH84SPCfrPLdj1XGl8Qohyb8GCWSpeFmpOM8GVBxtYq45W4l0OmBZa-PbinEAsQb7c8feEKxQmo5qcFKEEQMzvUviA3b97H5QhramrLH2XGKA6OpUbwrte~GdEi1z7iAkvRf-5W~nLNL6H6ozAzO3Eip-3Tr-0nhKcGggt6vbYQ7I1ybT77-UE1OzIau-yJtuPeOg1aY4RRQgEo4NqBgv9FMKJ5v~RZ7RRF-du~X7Q__",
-    path: "Aziyat - Pratyush Dhiman.mp3",
+    image: "https://files.catbox.moe/0szjj2.png",
+    path: "https://files.catbox.moe/kdq9hs.mp4",
   },
   {
     name: "Nasheed",
     artist: "Arif Lohar, Deep Jandu",
-    image: "https://media-hosting.imagekit.io//6575a79aa1f84d09/screenshot_1740420287712.png?Expires=1835028289&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=WyKv861FKgMzgvpA2nhE1izGYhpdZL6VunKAipEowqkVPp~0CltjMc5PqP~6j16FQUSQGmSnlBU2Jnl~ZjfD0XdXVj~hBl6YeCsrIJV5FIOQGpzeK9HT8qW3gxSR-9g9XO5GuUsezaX9jL6bGeyPaMJzug~PHJsVee8e5vdTutVcGCR6CYskz243uhGlGanv-shs6dEAhgHx5~z125u2BK9xFwAOMw1W0PxQJJq9GGKSBIJLuBCZQcUwqy9qJH98KWcozqB~YawkPll2uNxctVpgRuV~2z9Jp5hr9IOkWLfkYsVAxLVLO7qargySjcCjBlKE~7gbVzrkGHg6Ir2EFw__",
-    path: "nasheed.mp3",
+    image: "https://files.catbox.moe/05ooqb.png",
+    path: "https://files.catbox.moe/qvkb2a.mp4",
   },
   {
     name: "Kahani_Suno",
@@ -60,26 +60,26 @@ let track_list = [
   {
     name: "Ishq",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://media-hosting.imagekit.io//b9011f190b5b4792/screenshot_1740421229697.png?Expires=1835029231&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ypbmTNtMTV-tdx~5Yhuw83Pt0~yDmnr6AvnXNqHJM6et~NRePMCx9oR2l7vl1g6xmjP--jSjxpdFfg10xecwx8CdCRt4D9dvE18Fmq8GNcb4C1MeC7PhC59yqHTeCUcvuQEF4YLfXClaFW1q7NlASrubAfDrSK0YXsJ78C-RSeCRejygRZa5MvJBPlsp~76pa6zr0eKh2q8813pnmjVfmBxPCBU8k~kbjsEKrgacp23MfisKb7zAXM-S20phzGWIxbGl21vbjlBRTw8P7owCVGJmGzrGzXfCSVmScOfwfkcK3kIz-Uifbn7QARk~bA2FDpo2I~bYbphX1~bISEPhSA__",
-    path: "nasheed.mp3",
+    image: "https://files.catbox.moe/yr7d14.png",
+    path: "https://files.catbox.moe/kisqkf.mp4",
   },
   {
     name: "Jhol",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://media-hosting.imagekit.io//7c969cb02aff43c8/screenshot_1740418839921.png?Expires=1835026841&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AYcqy3MD6Aw2Fjl6axZMBxXfu9EgxLXajT-xpwhZ9vPkGU~D1zT6uPrTWIK~j0d1brNIDHN-zZgZZWrWktdsqMsMlbl1rxtmEzfUW5I5MF4qjgu-sL360JgsMgek~pZ26OFzChKGab8vtOjkqoqk609y9Lx0PhIqvl3VyByqypwvCZ1tDqFaEmbDzETvPlufPYjtn3Co9Vz4Uqq4uB06~R1VPkWnPeObYxEXbLLP9bhjpfYTaOADetqI8hWu57BlxKxjWS-UPlSyTHLRzzPp5O3Nax0eyczXv9YEvfMolFg4i79Ah4r7hR5Wc3yC4SyX~i3-jD777neOm-rUagVXfg__",
-    path: "&Signature=AYcqy3MD6Aw2Fjl6axZMBxXfu9EgxLXajT-xpwhZ9vPkGU~D1zT6uPrTWIK~j0d1brNIDHN-zZgZZWrWktdsqMsMlbl1rxtmEzfUW5I5MF4qjgu-sL360JgsMgek~pZ26OFzChKGab8vtOjkqoqk609y9Lx0PhIqvl3VyByqypwvCZ1tDqFaEmbDzETvPlufPYjtn3Co9Vz4Uqq4uB06~R1VPkWnPeObYxEXbLLP9bhjpfYTaOADetqI8hWu57BlxKxjWS-UPlSyTHLRzzPp5O3Nax0eyczXv9YEvfMolFg4i79Ah4r7hR5Wc3yC4SyX~i3-jD777neOm-rUagVXfg__",
+    image: "https://files.catbox.moe/zg5wsw.png",
+    path: "https://files.catbox.moe/ydn7fg.mp4",
   },
   {
-    name: "kjhgfrdzxc",
-    artist: "SHADOW LADY SCXR SOUL",
-    image: "https://ik.imagekit.io/eypz/1727596419416_7OfDs2puX.png",
-    path: "https://i.imgur.com/0BYmNbz.mp4",
+    name: "Changes",
+    artist: "XXX TENTACTION",
+    image: "https://files.catbox.moe/i598g0.png",
+    path: "https://files.catbox.moe/ok365y.mp4",
   },
   {
     name: "KUNJIOOO7876TR",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://ik.imagekit.io/eypz/1727596419416_7OfDs2puX.png",
-    path: "https://i.imgur.com/BYHxsQb.mp4",
+    path: "https://files.catbox.moe/uamhh6.mp4",
   },
 ];
 
