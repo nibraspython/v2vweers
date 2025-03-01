@@ -96,6 +96,42 @@ let track_list = [
     path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
   },
   {
+    name: "Jhol",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+  },
+  {
+    name: "Changes",
+    artist: "XXX TENTACTION",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+  },
+  {
+    name: "Jhol",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+  },
+  {
+    name: "Jh 7 ol",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+  },
+  {
+    name: "Changes",
+    artist: "XXX TENTACTION",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+  },
+  {
+    name: "Changes",
+    artist: "XXX TENTACTION",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+  },
+  {
     name: "Dilshaad",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_28.jpg",
@@ -219,6 +255,37 @@ function song10OnClick() {
   loadTrack(9);
   playTrack();
 }
+
+function song11OnClick() {
+  loadTrack(10);
+  playTrack();
+}
+
+function song12OnClick() {
+  loadTrack(11);
+  playTrack();
+}
+
+function song13OnClick() {
+  loadTrack(12);
+  playTrack();
+}
+
+function song14OnClick() {
+  loadTrack(13);
+  playTrack();
+}
+
+function song15OnClick() {
+  loadTrack(14);
+  playTrack();
+}
+
+function song16OnClick() {
+  loadTrack(15);
+  playTrack();
+}
+
 
 function prevTrack() {
   if (track_index > 0) track_index -= 1;
