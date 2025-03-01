@@ -19,26 +19,6 @@ let updateTimer;
 // Create new audio element
 let curr_track = document.createElement("audio");
 
-import { Analytics } from '@vercel/analytics/next';
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
-
 // Define the tracks that have to be played
 let track_list = [
   {
