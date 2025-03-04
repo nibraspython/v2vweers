@@ -41,10 +41,10 @@ let track_list = [
     path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_34.mp3",
   },
   {
-    name: "Kahani_Suno",
+    name: "kioijhg",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://media-hosting.imagekit.io//1f562de013e24f74/screenshot_1740420375390.png?Expires=1835028376&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jaT7f4TmaRh3V49vOtz62hd~u4U6z7~TAupIhHmcapm9su56qDYJR3-LNn-DxkCpE0rcayWXzExw7BNZNJds7C-kLZxx70LnF65fPIxcAPsUI79MFyEpxd8SQm2L83T-UQkANCNd-xX4dnVQ3h0RRl04ZPak9fCjrON~ewLptGnKI5rRm1Xo3UADA76-~6HyYZt~inO7g86ZNCO6Fn4JlYHYnzLGC-VTJLP-iBQtQ1BXDaB7-zGOONu-22PGb-K2xfVBYzM3tTP-quZgAvJiLO6mx4LQgT7EnUqciSlUwylNLdR9TQBvbApvzwfAUsynCqP3w56pdet1xytedKm21A__",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_35.mp3",
+    path: "RAUF-F.mp3",
   },
   {
     name: "Teri Meri",
