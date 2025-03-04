@@ -41,7 +41,7 @@ let track_list = [
     path: "mp3/NASHEED.mp3",
   },
   {
-    name: "kioijhg",
+    name: "Kahani Suno",
     artist: "SHADOW LADY SCXR SOUL",
     image: "https://media-hosting.imagekit.io//1f562de013e24f74/screenshot_1740420375390.png?Expires=1835028376&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jaT7f4TmaRh3V49vOtz62hd~u4U6z7~TAupIhHmcapm9su56qDYJR3-LNn-DxkCpE0rcayWXzExw7BNZNJds7C-kLZxx70LnF65fPIxcAPsUI79MFyEpxd8SQm2L83T-UQkANCNd-xX4dnVQ3h0RRl04ZPak9fCjrON~ewLptGnKI5rRm1Xo3UADA76-~6HyYZt~inO7g86ZNCO6Fn4JlYHYnzLGC-VTJLP-iBQtQ1BXDaB7-zGOONu-22PGb-K2xfVBYzM3tTP-quZgAvJiLO6mx4LQgT7EnUqciSlUwylNLdR9TQBvbApvzwfAUsynCqP3w56pdet1xytedKm21A__",
     path: "mp3/KAHANI-SUNO.mp3",
@@ -67,8 +67,8 @@ let track_list = [
   {
     name: "Jhol",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+    image: "img/JHOLL.png",
+    path: "mp3/JHOL.mp3",
   },
   {
     name: "Changes",
@@ -83,10 +83,10 @@ let track_list = [
     path: "mp3/DILKOK.mp3",
   },
   {
-    name: "Changes",
-    artist: "XXX TENTACTION",
-    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+    name: "Husn",
+    artist: "Anuv Jain",
+    image: "img/HUSN.png",
+    path: "mp3/HUS-N.mp3",
   },
   {
     name: "Jhol",
