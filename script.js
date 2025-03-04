@@ -109,14 +109,14 @@ let track_list = [
   {
     name: "Changes",
     artist: "XXX TENTACTION",
-    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+    image: "CHANGES.png",
+    path: "change-s.mp3",
   },
   {
     name: "Dilshaad",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_28.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_29.mp3",
+    image: "DILSHAAD.png",
+    path: "DILSHAAD.mp3",
   },
 ];
 
