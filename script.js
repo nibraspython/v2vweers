@@ -1,4 +1,3 @@
-
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");
@@ -89,10 +88,10 @@ let track_list = [
     path: "mp3/HUSN.mp3",
   },
   {
-    name: "Jhol",
+    name: "Derdime Derdiman",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "JHOLL.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+    image: "DERDIMAN.jpg",
+    path: "DERDIMAN.mp3",
   },
   {
     name: "Jo Tum Mera Ho",
@@ -107,10 +106,10 @@ let track_list = [
     path: "mp3/BAARISHEIN-ANUV.mp3",
   },
   {
-    name: "Changes",
+    name: "Jupiter Mazha",
     artist: "XXX TENTACTION",
-    image: "img/CHANGE.jpg",
-    path: "mp3/change-s.mp3",
+    image: "img/JUPITER.jpg",
+    path: "mp3/JUPITERMAZHA.mp3",
   },
   {
     name: "Dilshaad",
