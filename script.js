@@ -49,7 +49,7 @@ let track_list = [
   {
     name: "Teri Meri",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "img/TERI-MERI.png",
+    image: "img/TERIMERI.png",
     path: "mp3/TERI-MERI.mp3",
   },
   {
@@ -109,7 +109,7 @@ let track_list = [
   {
     name: "Changes",
     artist: "XXX TENTACTION",
-    image: "img/CHANGES.png",
+    image: "img/CHANGE.png",
     path: "mp3/change-s.mp3",
   },
   {
