@@ -90,8 +90,8 @@ let track_list = [
   {
     name: "Derdime Derdiman",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "DERDIMAN.jpg",
-    path: "DERDIMAN.mp3",
+    image: "img/DERDIMAN.jpg",
+    path: "mp3/DERDIMAN.mp3",
   },
   {
     name: "Jo Tum Mera Ho",
