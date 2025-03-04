@@ -86,7 +86,7 @@ let track_list = [
     name: "Husn",
     artist: "Anuv Jain",
     image: "img/HUSN.jpg",
-    path: "mp3/HUS-N.mp3",
+    path: "mp3/HUSN.mp3",
   },
   {
     name: "Jhol",
