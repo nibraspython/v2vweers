@@ -1,3 +1,4 @@
+
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");
@@ -22,52 +23,100 @@ let curr_track = document.createElement("audio");
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Jhol",
+    name: "SanamRe",
     artist: "Mithoon & Arijit Singh",
-    image: "https://ik.imagekit.io/eypz/1727596419416_7OfDs2puX.png",
-    path: "1c0a47960b0581817dfac596a058604f.mp3",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_30.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_31.mp3",
   },
   {
     name: "Aziyat",
     artist: "Diljit X Sia",
-    image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
-    path: "Aziyat - Pratyush Dhiman.mp3",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_33.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_32.mp3",
   },
   {
     name: "Nasheed",
     artist: "Arif Lohar, Deep Jandu",
-    image: "Screenshot (7).png",
-    path: "nasheed.mp3",
+    image: "https://files.catbox.moe/05ooqb.png",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_34.mp3",
   },
   {
     name: "Kahani_Suno",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
-    path: "kahani_suno.mp3",
+    image: "https://media-hosting.imagekit.io//1f562de013e24f74/screenshot_1740420375390.png?Expires=1835028376&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jaT7f4TmaRh3V49vOtz62hd~u4U6z7~TAupIhHmcapm9su56qDYJR3-LNn-DxkCpE0rcayWXzExw7BNZNJds7C-kLZxx70LnF65fPIxcAPsUI79MFyEpxd8SQm2L83T-UQkANCNd-xX4dnVQ3h0RRl04ZPak9fCjrON~ewLptGnKI5rRm1Xo3UADA76-~6HyYZt~inO7g86ZNCO6Fn4JlYHYnzLGC-VTJLP-iBQtQ1BXDaB7-zGOONu-22PGb-K2xfVBYzM3tTP-quZgAvJiLO6mx4LQgT7EnUqciSlUwylNLdR9TQBvbApvzwfAUsynCqP3w56pdet1xytedKm21A__",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_35.mp3",
   },
   {
     name: "Teri Meri",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "Screenshot (4).png",
+    image: "https://media-hosting.imagekit.io//db9ba48ea87c4352/screenshot_1740420795208.png?Expires=1835028796&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TYNr8MRd2sZgnIgw9f7nkjbWt2bQ4fTq9Qc3V~4Vh90UxEJ85JM756nw4drrHfMV2~81ZIh9XIy0PRY4JekgH3DrqHsg8gIsR92pjLkQLkNSzYWZouYRuN66Ow-4zFK7ntkHvlEkeru35GNheew4xw89wkbu09MqXQJBBrFjDxIVtc37l5BOMYjPdWtDJdQKthg0HL935vn84EiRAyl74azZbD13lUZeqIxYP8bNaNWarGj2lbz1XmWmohp9BbnIaUd8wmV5o3mg-XJKFmvmvL3V2FJHeVvlcsyLXLZw2Y43F7pu2zeRA4lTn-tku~BPeTL5~6L6givq~4-JEp2Npg__",
     path: "b2814905d7a33c1106ee0aca91f1f9c7.mp3",
   },
   {
     name: "Rauf & Faik",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "img6.webp",
+    image: "https://media-hosting.imagekit.io//b18d69d8c8264eca/screenshot_1740420973860.png?Expires=1835028975&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=aMs3-HIaTLu~NG~~EoMPaGCrChi59-q1RNpZv5fRSmvME2kaa39DcYGdVBPXuYUR0KJXaDPp6gy3RsaDdE6E4d85UW9U2qmOOYczPVYBGM-GZ5DDNCmpeZ3~ugMSONdhXRsl5BsuePHjBmfueR4w0mUczI3xDDhFTXr2Rk5axiObuga4tyIb6OqARskI75v8OfyZQM-fGNbSWctjKATad69JVGhPYuLBOPKDONktINiSipzTnoBO6HSfsKcTX78guodiSinV5kwTv62feF5UVZ8bZo3GB6yv-MH-VDLZMWjBIDVCFJyOUr3biu3fgQOYoWmDCySW~vWtnada8oVgDA__",
     path: "b60241ef64e3906815f9dd11928deb10.mp3",
   },
   {
     name: "Ishq",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
-    path: "bb710ac9db02e2e056b4370041205e8a.mp3",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_23.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_22.mp3",
   },
   {
-    name: "Sulaim",
+    name: "Jhol",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://cdn.ironman.my.id/q/gZpzw.jpg",
-    path: "https://cdn.ironman.my.id/q/gZpzw.jpg",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+  },
+  {
+    name: "Changes",
+    artist: "XXX TENTACTION",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+  },
+  {
+    name: "Jhol",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+  },
+  {
+    name: "Changes",
+    artist: "XXX TENTACTION",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+  },
+  {
+    name: "Jhol",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+  },
+  {
+    name: "Jo Tum Mera Ho",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "JOTUM.png",
+    path: "JOTUM.mp3",
+  },
+  {
+    name: "Baarishein",
+    artist: "XXX TENTACTION",
+    image: "BAARISHEIN.png",
+    path: "BAARISHEIN-ANUV.mp3",
+  },
+  {
+    name: "Changes",
+    artist: "XXX TENTACTION",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+  },
+  {
+    name: "Dilshaad",
+    artist: "SHADOW LADY SCXR SOUL",
+    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_28.jpg",
+    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_29.mp3",
   },
 ];
 
@@ -178,6 +227,47 @@ function song8OnClick() {
   playTrack();
 }
 
+function song9OnClick() {
+  loadTrack(8);
+  playTrack();
+}
+
+function song10OnClick() {
+  loadTrack(9);
+  playTrack();
+}
+
+function song11OnClick() {
+  loadTrack(10);
+  playTrack();
+}
+
+function song12OnClick() {
+  loadTrack(11);
+  playTrack();
+}
+
+function song13OnClick() {
+  loadTrack(12);
+  playTrack();
+}
+
+function song14OnClick() {
+  loadTrack(13);
+  playTrack();
+}
+
+function song15OnClick() {
+  loadTrack(14);
+  playTrack();
+}
+
+function song16OnClick() {
+  loadTrack(15);
+  playTrack();
+}
+
+
 function prevTrack() {
   if (track_index > 0) track_index -= 1;
   else track_index = track_list.length;
@@ -227,4 +317,32 @@ function seekUpdate() {
     curr_time.textContent = currentMinutes + ":" + currentSeconds;
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
+}
+
+// Scroll functionality for playlist
+function scrollPlaylist(direction) {
+    const container = document.querySelector(".playlist");
+    const scrollAmount = 50; // Adjust scroll amount
+    if (direction === 'up') {
+        container.scrollTop -= scrollAmount;
+    } else if (direction === 'down') {
+        container.scrollTop += scrollAmount;
+    }
+}
+
+// Add event listeners to scroll buttons
+document.getElementById('scroll-up').addEventListener('click', function() {
+    document.querySelector('.playlist').scrollBy(0, -50); // Scrolls up
+});
+
+document.getElementById('scroll-down').addEventListener('click', function() {
+    document.querySelector('.playlist').scrollBy(0, 50); // Scrolls down
+});
+
+// Ensure new songs are added inside the playlist
+function addSongToPlaylist(songName, artist) {
+    let songList = document.getElementById('song-list');
+    let listItem = document.createElement('li');
+    listItem.innerHTML = `<span>${songName} - ${artist}</span>`;
+    songList.appendChild(listItem);
 }
