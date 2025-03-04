@@ -61,8 +61,8 @@ let track_list = [
   {
     name: "Ishq",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_23.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_22.mp3",
+    image: "ISHQ.png",
+    path: "ISHQ-Q.mp3",
   },
   {
     name: "Jhol",
@@ -73,14 +73,14 @@ let track_list = [
   {
     name: "Changes",
     artist: "XXX TENTACTION",
-    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_26.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_27.mp3",
+    image: "CHANGE.png",
+    path: "change-s.mp3",
   },
   {
-    name: "Jhol",
+    name: "Dil Ko Karaar Aaya",
     artist: "SHADOW LADY SCXR SOUL",
-    image: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/photos/file_24.jpg",
-    path: "https://api.telegram.org/file/bot7834654948:AAHzCZeDZeWvhkTJPEHjfwN_Sr2hp2hkv5M/music/file_36.mp3",
+    image: "DILKOK.jpg",
+    path: "DILKOK.mp3",
   },
   {
     name: "Changes",
@@ -96,13 +96,13 @@ let track_list = [
   },
   {
     name: "Jo Tum Mera Ho",
-    artist: "SHADOW LADY SCXR SOUL",
+    artist: "Anuv Jain",
     image: "JOTUM.png",
     path: "JOTUM.mp3",
   },
   {
     name: "Baarishein",
-    artist: "XXX TENTACTION",
+    artist: "Anuv Jain",
     image: "BAARISHEIN.png",
     path: "BAARISHEIN-ANUV.mp3",
   },
